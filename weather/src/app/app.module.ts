@@ -13,7 +13,8 @@ import { WeatherdisplayComponent } from './home/weatherdisplay/weatherdisplay.co
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
