@@ -17,7 +17,10 @@ export class WeatherdisplayComponent implements OnInit{
   // the seconds should reflect in real time
 
   dayImg = '/../assets/icons/fluent-emoji_face-in-clouds.svg';
-  tempimg = '/../assets/icons/fluent-temperature-24-regular.svg';
+  tempImg = '/../assets/icons/solar_temperature-line-duotone.svg';
+  logo = '/../assets/images/logo.png';
+  humidityImg = '/../assets/icons/material-symbols_humidity-mid.svg';
+  windImg = '/../assets/icons/svg-spinners_wind-toy.svg';
 
 
   constructor(private weatherService: WeatherService) {
